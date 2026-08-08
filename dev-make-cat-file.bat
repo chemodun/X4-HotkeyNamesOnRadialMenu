@@ -1,0 +1,3 @@
+..\..\XRCatTool.exe -dump -include "compass.xpl" -in "." -out "subst_01.cat"
+
+set /p DUMMY=Hit ENTER to exit...

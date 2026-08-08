@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content
+  id=""
+  name="Hotkey Names on Radial Menu"
+  author="Chem O`Dun"
+  version="80001"
+  date="2026-08-08"
+  save="false"
+  sync="false"
+  enabled="true"
+  description="Shows the real names of mod hotkeys on the radial menu, in place of the internal (Debug) placeholders.">
+  <!-- Russian -->
+  <text language="7"
+    description="Показывает настоящие названия горячих клавиш модов в радиальном меню вместо внутренних заглушек (Debug)."></text>
+  <!-- French -->
+  <text language="33"
+    description="Affiche les vrais noms des raccourcis de mods dans le menu radial, à la place des espaces réservés internes (Debug)."></text>
+  <!-- Spanish -->
+  <text language="34"
+    description="Muestra los nombres reales de los atajos de los mods en el menú radial, en lugar de los marcadores internos (Debug)."></text>
+  <!-- Italian -->
+  <text language="39"
+    description="Mostra i nomi reali delle scorciatoie delle mod nel menu radiale, al posto dei segnaposto interni (Debug)."></text>
+  <!-- Czech -->
+  <text language="42"
+    description="Zobrazuje skutečné názvy klávesových zkratek modů v radiálním menu místo interních zástupných (Debug)."></text>
+  <!-- English -->
+  <text language="44"
+    description="Shows the real names of mod hotkeys on the radial menu, in place of the internal (Debug) placeholders."></text>
+  <!-- Polish -->
+  <text language="48"
+    description="Wyświetla prawdziwe nazwy skrótów klawiszowych modów w menu radialnym zamiast wewnętrznych symboli (Debug)."></text>
+  <!-- German -->
+  <text language="49"
+    description="Zeigt die echten Namen von Mod-Tastenkürzeln im Radialmenü an, anstelle der internen (Debug)-Platzhalter."></text>
+  <!-- Portuguese -->
+  <text language="55"
+    description="Mostra os nomes reais dos atalhos de mods no menu radial, em vez dos marcadores internos (Debug)."></text>
+  <!-- Japanese -->
+  <text language="81"
+    description="ラジアルメニューに、内部の (Debug) プレースホルダーではなく、MOD のホットキーの実際の名前を表示します。"></text>
+  <!-- Korean -->
+  <text language="82"
+    description="방사형 메뉴에 내부 (Debug) 자리 표시자 대신 모드 단축키의 실제 이름을 표시합니다."></text>
+  <!-- Chinese Simplified -->
+  <text language="86"
+    description="在环形菜单中显示模组快捷键的真实名称，而不是内部的 (Debug) 占位符。"></text>
+  <!-- Chinese Traditional -->
+  <text language="88"
+    description="在環形選單中顯示模組快捷鍵的真實名稱，而不是內部的 (Debug) 佔位符。"></text>
+  <!-- Turkish -->
+  <text language="90"
+    description="Radyal menüde mod kısayollarının gerçek adlarını, dahili (Debug) yer tutucuları yerine gösterir."></text>
+  <!-- Ukrainian -->
+  <text language="380"
+    description="Показує справжні назви гарячих клавіш модів у радіальному меню замість внутрішніх заповнювачів (Debug)."></text>
+  <dependency version="800" maxversion="899"></dependency>
+  <dependency id="ws_3750545906" optional="false" name="Native Hotkey API" version="80009"></dependency>
+  <dependency id="ws_3770927339" optional="false" name="Print Extension List" version="101"></dependency>
+</content>
