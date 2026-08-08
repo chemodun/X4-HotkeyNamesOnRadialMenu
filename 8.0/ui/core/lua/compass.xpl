@@ -40,10 +40,12 @@ ffi.cdef[[
 	float GetUIScale(const bool scalewithresolution);
 	bool IsVRMode();
 
+	/* Chem begin */
 	typedef uint64_t UniverseID;
 	UniverseID GetPlayerID(void);
 	int GetConfigSetting(const char*const setting);
 	void SetConfigSetting(const char*const setting, const bool value);
+	/* Chem end */
 ]]
 
 --- Wrapper ---
@@ -115,10 +117,12 @@ local config = {
 
 	fadeInDuration = 0.1,
 
+	-- Chem begin
 	-- Native Hotkey API name lookup, see the mod's own ui/hotkey_names_on_radial_menu.lua
 	hotkeyNamePlaceholder = "hnrm.name",
 	hotkeyNameDirtySetting = "hnrmDirty",
 	hotkeyNameDebugSetting = "hnrmDebug",
+	-- Chem end
 
 	core = {
 		["INPUT_SOURCE_COMPASSMENU"] = {
@@ -141,8 +145,10 @@ local private = {
 	compassElement = nil,
 	buttonElements = {},
 
+	-- Chem begin
 	hotkeyNames = {},				-- [controlid] = Native Hotkey API display name, "" if that id holds none
 	hotkeyNamesDebug = false,
+	-- Chem end
 }
 
 -- local functions forward declarations
@@ -328,6 +334,7 @@ end
 -------------------------------------
 -- Presentation specific functions --
 -------------------------------------
+-- Chem begin
 -- Native Hotkey API integration.
 -- Hotkeys registered through that API occupy the engine's INPUT_ACTION_DEBUG_*
 -- placeholder actions, so GetLocalizedText() resolves them to "(Debug)A" and the
@@ -361,10 +368,11 @@ local function getHotkeyName(controlid)
 	end
 	return name
 end
+-- Chem end
 
 function activateCompass()
 	private.mappings = {}
-	refreshHotkeyNames()
+	refreshHotkeyNames()	-- Chem
 	local buf = ffi.new("CompassMenuEntry[?]", config.numButtons)
 	local n = C.GetCompassMenuMappings(buf, config.numButtons, private.inputSource)
 	for i = 0, n - 1 do
@@ -372,10 +380,12 @@ function activateCompass()
 		if type ~= "" then
 			local name = ""
 			if type == "action" then
+				-- Chem begin
 				name = getHotkeyName(buf[i].controlid)
 				if name == "" then
 					name = ffi.string(C.GetLocalizedText(config.actionTextPageID, buf[i].controlid, "action " .. buf[i].controlid))
 				end
+				-- Chem end
 			elseif type == "state" then
 				name = ffi.string(C.GetLocalizedText(config.stateTextPageID, buf[i].controlid, "state " .. buf[i].controlid))
 			end
