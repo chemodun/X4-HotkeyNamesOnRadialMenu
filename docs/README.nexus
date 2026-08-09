@@ -1,0 +1,69 @@
+[size=4][u]Hotkey Names on Radial Menu[/u][/size]
+
+An add-on for the [b]Native Hotkey API[/b] that makes hotkeys registered through it show their real names on the radial (compass) menu, instead of the internal [b](Debug)A[/b] style placeholders.
+
+[size=3][u][b]Overview[/b][/u][/size]
+
+X4's [b]INPUT_ACTION_*[/b] list is compiled into the game and cannot be extended, so the [i]Native Hotkey API[/i] hands out otherwise-unused debug action slots to the mods that register with it. Every part of the game that names a control by looking it up in the game's own text database therefore shows those slots under their built-in placeholder names - `(Debug)A`, [b](Debug)F12[/b] and so on.
+
+The radial menu is the one place where this is visible in normal play. Assign a mod hotkey to a radial menu position and the wheel labels it `(Debug)A`, with no clue which action it actually triggers.
+
+This mod fixes that radial menu label issue. The wheel is drawn by `ui/core/lua/compass.lua`, which runs in the game's isolated core UI environment - it can reach neither the [i]Native Hotkey API[/i]'s registry nor any other mod's Lua. This add-on substitutes that file and gives it a channel to ask, so each radial position shows the name the registering mod actually chose.
+
+Since this mod requires replacing the core UI file, it is distributed as a separate extension and is most beneficial for players who actively use the radial menu in-game—particularly controller users.
+
+There is nothing to configure. Install it and the radial menu starts using real names.
+
+[size=3][u][b]Requirements[/b][/u][/size]
+[list]
+[*] [b]X4: Foundations[/b]: Version [b]8.00[/b] or higher (the 8.00.xx build of this mod) or [b]9.00[/b] or higher (the 9.00.xx build).
+[*] [b]Native Hotkey API[/b]: Version [b]8.00.09[/b] or higher by [url=https://next.nexusmods.com/profile/chemodun?gameId=2659]Chem O`Dun[/url].
+[list]
+[*] Available on Steam Workshop: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3750545906]Native Hotkey API[/url]
+[*] Available on Nexus Mods: [url=https://www.nexusmods.com/x4foundations/mods/2181]Native Hotkey API[/url]
+[/list]
+[*] [b]Print Extension List[/b]: Version [b]1.01[/b] or higher by [url=https://next.nexusmods.com/profile/chemodun?gameId=2659]Chem O`Dun[/url].
+[list]
+[*] Available on Nexus Mods: [url=https://www.nexusmods.com/x4foundations/mods/2172]Print Extension List[/url]
+[/list]
+[/list]
+[size=3][u][b]Installation[/b][/u][/size]
+[list]
+[*] [b]Steam Workshop[/b]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=0]Hotkey Names on Radial Menu[/url] - only for game versions 9.00 and higher.
+[*] [b]Nexus Mods[/b]: [url=https://www.nexusmods.com/x4foundations/mods/]Hotkey Names on Radial Menu[/url] - select the appropriate file based on version of your game build (8.00 or 9.00).
+[/list]
+[size=3][u][b]How to use it[/b][/u][/size]
+[list]
+[*] Register a hotkey as usual - any mod built on the [i]Native Hotkey API[/i] already does this for you.
+[*] Open [b]Options > Hotkey Management[/b], find the hotkey, and use the radial menu drop-down at the end of its row to assign it to a position on one of the two wheels.
+[/list]  [img]https://raw.githubusercontent.com/chemodun/X4-HotkeyNamesOnRadialMenu/refs/heads/main/docs/images/assigning_radial_menu_positions.png[/img]
+[list][*] Open that wheel in flight. The position now carries the hotkey's own name.
+[/list]  [img]https://raw.githubusercontent.com/chemodun/X4-HotkeyNamesOnRadialMenu/refs/heads/main/docs/images/radial_menu.png[/img]
+
+Names are re-read whenever the set of registered hotkeys changes, so installing, removing or disabling a hotkey mod is reflected the next time the wheel is opened.
+
+[size=3][u][b]Limitations[/b][/u][/size]
+[list]
+[*] This mod replaces the whole of `ui/core/lua/compass.lua`, because the game offers no way to extend a core UI script. [b]It is incompatible with any other mod that replaces the same file.[/b]
+[*] Separate builds are required for each major game version.
+[*] Only the radial menu is affected. Anywhere else the game names these slots from its own text database still shows the built-in placeholder.
+[/list]
+[size=3][u][b]Credits[/b][/u][/size]
+[list]
+[*] [b]Author[/b]: Chem O`Dun, on [url=https://next.nexusmods.com/profile/ChemODun/mods?gameId=2659]Nexus Mods[/url] and [url=https://steamcommunity.com/id/chemodun/myworkshopfiles/?appid=392160]Steam Workshop[/url]
+[*] [i]"X4: Foundations"[/i] is a trademark of [url=https://www.egosoft.com]Egosoft[/url].
+[/list]
+[size=3][u][b]Acknowledgements[/b][/u][/size]
+[list]
+[*] [url=https://www.egosoft.com]EGOSOFT[/url] - for the X series.
+[*] [b]Nistur[/b] and an unknown Egosoft UI developer on Egosoft's [url=https://discord.gg/ThBjrERNX]Discord[/url] for guiding me in the right direction to transfer the data to the core UI environment.
+[/list]
+[size=3][u][b]Changelog[/b][/u][/size]
+
+[size=3][u][i][9.00.01] / [8.00.01] - 2026-08-09[/i][/u][/size]
+[list]
+[*] [b]Added[/b]
+[list]
+[*] Initial release.
+[/list]
+[/list]
