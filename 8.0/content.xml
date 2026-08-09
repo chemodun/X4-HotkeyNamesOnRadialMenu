@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content
-  id=""
+  id="ws_3780453833"
   name="Hotkey Names on Radial Menu"
   author="Chem O`Dun"
   version="80001"
-  date="2026-08-08"
+  date="2026-08-09"
   save="false"
   sync="false"
   enabled="true"
+  lastupdate="1786285000"
   description="Shows the real names of mod hotkeys on the radial menu, in place of the internal (Debug) placeholders.">
-  <!-- Russian -->
   <text language="7"
-    description="Показывает настоящие названия горячих клавиш модов в радиальном меню вместо внутренних заглушек (Debug)."></text>
+    description="Shows the real names of mod hotkeys on the radial menu, in place of the internal (Debug) placeholders."></text>
   <!-- French -->
   <text language="33"
     description="Affiche les vrais noms des raccourcis de mods dans le menu radial, à la place des espaces réservés internes (Debug)."></text>
@@ -51,6 +51,9 @@
   <!-- Turkish -->
   <text language="90"
     description="Radyal menüde mod kısayollarının gerçek adlarını, dahili (Debug) yer tutucuları yerine gösterir."></text>
+  <!-- Bulgarian-->
+  <text language="359"
+    description="Показва реалните имена на модификационните клавишни комбинации в радиалното меню, вместо вътрешните (Debug) запълващи елементи."></text>
   <!-- Ukrainian -->
   <text language="380"
     description="Показує справжні назви гарячих клавіш модів у радіальному меню замість внутрішніх заповнювачів (Debug)."></text>
