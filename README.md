@@ -17,16 +17,16 @@ There is nothing to configure. Install it and the radial menu starts using real 
 ## Requirements
 
 - **X4: Foundations**: Version **8.00** or higher (the 8.00.xx build of this mod) or **9.00** or higher (the 9.00.xx build).
-- **Native Hotkey API**: Version **8.00.09** or higher by [Chem O`Dun](https://next.nexusmods.com/profile/chemodun?gameId=2659).
+- **Native Hotkey API**: Version **8.00.09** or higher by [Chem O`Dun](https://www.nexusmods.com/profile/chemodun?gameId=2659).
   - Available on Steam Workshop: [Native Hotkey API](https://steamcommunity.com/sharedfiles/filedetails/?id=3750545906)
   - Available on Nexus Mods: [Native Hotkey API](https://www.nexusmods.com/x4foundations/mods/2181)
-- **Print Extension List**: Version **1.01** or higher by [Chem O`Dun](https://next.nexusmods.com/profile/chemodun?gameId=2659).
+- **Print Extension List**: Version **1.01** or higher by [Chem O`Dun](https://www.nexusmods.com/profile/chemodun?gameId=2659).
   - Available on Nexus Mods: [Print Extension List](https://www.nexusmods.com/x4foundations/mods/2172)
 
 ## Installation
 
 - **Steam Workshop**: [Hotkey Names on Radial Menu](https://steamcommunity.com/sharedfiles/filedetails/?id=0) - only for game versions 9.00 and higher.
-- **Nexus Mods**: [Hotkey Names on Radial Menu](https://www.nexusmods.com/x4foundations/mods/) - select the appropriate file based on version of your game build (8.00 or 9.00).
+- **Nexus Mods**: [Hotkey Names on Radial Menu](https://www.nexusmods.com/x4foundations/mods/2308) - select the appropriate file based on version of your game build (8.00 or 9.00).
 
 ## How to use it
 
@@ -46,7 +46,7 @@ Names are re-read whenever the set of registered hotkeys changes, so installing,
 
 ## Credits
 
-- **Author**: Chem O`Dun, on [Nexus Mods](https://next.nexusmods.com/profile/ChemODun/mods?gameId=2659) and [Steam Workshop](https://steamcommunity.com/id/chemodun/myworkshopfiles/?appid=392160)
+- **Author**: Chem O`Dun, on [Nexus Mods](https://www.nexusmods.com/profile/ChemODun/mods?gameId=2659) and [Steam Workshop](https://steamcommunity.com/id/chemodun/myworkshopfiles/?appid=392160)
 - *"X4: Foundations"* is a trademark of [Egosoft](https://www.egosoft.com).
 
 ## Acknowledgements
