@@ -17,12 +17,12 @@ There is nothing to configure. Install it and the radial menu starts using real 
 [size=3][u][b]Requirements[/b][/u][/size]
 [list]
 [*] [b]X4: Foundations[/b]: Version [b]8.00[/b] or higher (the 8.00.xx build of this mod) or [b]9.00[/b] or higher (the 9.00.xx build).
-[*] [b]Native Hotkey API[/b]: Version [b]8.00.09[/b] or higher by [url=https://next.nexusmods.com/profile/chemodun?gameId=2659]Chem O`Dun[/url].
+[*] [b]Native Hotkey API[/b]: Version [b]8.00.09[/b] or higher by [url=https://www.nexusmods.com/profile/chemodun?gameId=2659]Chem O`Dun[/url].
 [list]
 [*] Available on Steam Workshop: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3750545906]Native Hotkey API[/url]
 [*] Available on Nexus Mods: [url=https://www.nexusmods.com/x4foundations/mods/2181]Native Hotkey API[/url]
 [/list]
-[*] [b]Print Extension List[/b]: Version [b]1.01[/b] or higher by [url=https://next.nexusmods.com/profile/chemodun?gameId=2659]Chem O`Dun[/url].
+[*] [b]Print Extension List[/b]: Version [b]1.01[/b] or higher by [url=https://www.nexusmods.com/profile/chemodun?gameId=2659]Chem O`Dun[/url].
 [list]
 [*] Available on Nexus Mods: [url=https://www.nexusmods.com/x4foundations/mods/2172]Print Extension List[/url]
 [/list]
@@ -30,7 +30,7 @@ There is nothing to configure. Install it and the radial menu starts using real 
 [size=3][u][b]Installation[/b][/u][/size]
 [list]
 [*] [b]Steam Workshop[/b]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=0]Hotkey Names on Radial Menu[/url] - only for game versions 9.00 and higher.
-[*] [b]Nexus Mods[/b]: [url=https://www.nexusmods.com/x4foundations/mods/]Hotkey Names on Radial Menu[/url] - select the appropriate file based on version of your game build (8.00 or 9.00).
+[*] [b]Nexus Mods[/b]: [url=https://www.nexusmods.com/x4foundations/mods/2308]Hotkey Names on Radial Menu[/url] - select the appropriate file based on version of your game build (8.00 or 9.00).
 [/list]
 [size=3][u][b]How to use it[/b][/u][/size]
 [list]
@@ -50,7 +50,7 @@ Names are re-read whenever the set of registered hotkeys changes, so installing,
 [/list]
 [size=3][u][b]Credits[/b][/u][/size]
 [list]
-[*] [b]Author[/b]: Chem O`Dun, on [url=https://next.nexusmods.com/profile/ChemODun/mods?gameId=2659]Nexus Mods[/url] and [url=https://steamcommunity.com/id/chemodun/myworkshopfiles/?appid=392160]Steam Workshop[/url]
+[*] [b]Author[/b]: Chem O`Dun, on [url=https://www.nexusmods.com/profile/ChemODun/mods?gameId=2659]Nexus Mods[/url] and [url=https://steamcommunity.com/id/chemodun/myworkshopfiles/?appid=392160]Steam Workshop[/url]
 [*] [i]"X4: Foundations"[/i] is a trademark of [url=https://www.egosoft.com]Egosoft[/url].
 [/list]
 [size=3][u][b]Acknowledgements[/b][/u][/size]
