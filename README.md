@@ -25,7 +25,7 @@ There is nothing to configure. Install it and the radial menu starts using real 
 
 ## Installation
 
-- **Steam Workshop**: [Hotkey Names on Radial Menu](https://steamcommunity.com/sharedfiles/filedetails/?id=0) - only for game versions 9.00 and higher.
+- **Steam Workshop**: [Hotkey Names on Radial Menu](https://steamcommunity.com/sharedfiles/filedetails/?id=3780453833) - only for game versions 9.00 and higher.
 - **Nexus Mods**: [Hotkey Names on Radial Menu](https://www.nexusmods.com/x4foundations/mods/2308) - select the appropriate file based on version of your game build (8.00 or 9.00).
 
 ## How to use it
